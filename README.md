@@ -1,9 +1,9 @@
-# RubyMuibi.org 🤖
+# Stack 🤖
 
 Open-source Artificial Intelligence (AI) platform.
 
 ## How to Use
-1. Visit https://rubymuibi.org or clone this repository.
+1. Visit website or clone this repository.
 
 ## How to Clone
 These instructions will help you get a copy of the project up and running on your local machine.
