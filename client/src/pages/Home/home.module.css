@@ -1,0 +1,19 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 1px white solid;
+    border-top: none;
+    width: 99vw;
+    height: 95vh;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+
+
+@media (max-width: 1024px) {
+    .container {
+        width: 95vw;
+    }
+}
