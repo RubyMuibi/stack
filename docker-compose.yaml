@@ -1,0 +1,22 @@
+version: "3.8"
+services:
+  server:
+    container_name: stack_server
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    image: server:latest
+    ports:
+      - "4000:4002"
+    volumes:
+      - ./server:/app
+    env_file:
+      - ./server/.env
+
+  database:
+    container_name: stack_database
+    image: postgres
+    ports:
+      - "5432:5432"
+    env_file:
+      - ./server/.env
